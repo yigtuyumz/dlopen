@@ -1,6 +1,6 @@
 CC := gcc
 # fPIC stands for `position independent code`
-CFLAGS := -Wall -Wextra -Werror -fPIC -std=c99
+CFLAGS := -Wall -Wextra -Werror -nostdlib -fPIC -std=c99
 NAME := libdynlib.so
 
 SRCS := dynlib.c
